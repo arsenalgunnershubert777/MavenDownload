@@ -38,11 +38,11 @@ import org.xml.sax.SAXException;
  *
  */
 
-//!!!!!check to make sure the recursive method with arraylist works for multiple dependencies or switch to while loop
+
 public class MavenLib {
 	
 	
-	/*public String checkPlugin(String groupId, String artifactId, String version) {
+	/*
 		//check workspace for jar file,
 		
 		
@@ -56,7 +56,7 @@ public class MavenLib {
 		
 		
 		return null;
-	}*/
+	*/
 	
 	public static LinkedList<String> createDirectory(String pluginFilePath, String rootGroupID, String rootArtifactID, String rootVersion) throws DownloadFailedException {
 		String sep = System.getProperty("file.separator");
